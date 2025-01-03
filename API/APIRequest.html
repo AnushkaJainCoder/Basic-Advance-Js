@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // const requestURL = 'https://api.github.com/users/Anushkajain22';
+    // const xhr = new XMLHttpRequest();
+    // console.log("object craete",xhr.readyState);
+    // xhr.open('GET' , requestURL);
+    // console.log('here');
+    // console.log("open called",xhr.readyState);
+    // xhr.onreadystatechange = function(){
+    //     console.log(xhr.readyState);
+    //     if(xhr.readyState == 4){
+    //         const data = JSON.parse(this.responseText);
+    //         console.log("operation coplete");
+    //         console.log(typeof data);
+    //         console.log(data);  
+    //     }
+    // }
+    // xhr.send()
+
+
+   // Promises
+
+    // console.log("send request",xhr.readyState);
+// new Promise(function(resolve, reject){
+//         setTimeout(()=>{
+//             console.log("helo");
+//         },3000)
+//     }).then(()=>{
+//         console.log("leave pease");
+        
+//     }).catch(()=>{
+//         console.log("error encounered  ");
+        
+//     })
+    
+
+
+
+
+// const pr = new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         console.log("hello");
+//         resolve({username: 'Anu', password: 'djhdhded'});
+        
+//     }, 3000)
+// })
+
+// pr.then((user)=>{
+//     console.log(user);
+    
+// }).catch()
+
+// const username = pr.then((user)=> user.username);
+// console.log(username);
+
+
+
+// async function getAllUser(){
+//     try{
+//         const res = await fetch('https://api.github.com/users/Anushkajain22')
+//         // console.log(typeof res);
+//         console.log(res);
+        
+        
+//         const data = await res.json();
+//         // console.log("data",data);
+//         console.log(data);
+//     }
+//     catch(err){
+//         console.log(err );
+        
+//     }
+// }
+
+
+
+
+// getAllUser();
+
+// async function getAll(){
+//     let paswd = '123'
+//     try{
+//         const response = await fetch('https://google.com/api');
+//         console.log(response);
+//     }
+//     catch(err){
+//         console.log('not possible');
+        
+//     }
+// }
+
+
+
+
+
+// fetch('https://api.github.com/users/Anushkajain222')
+// .then((res)=>{
+//     let paswd = '123'
+//     if(paswd == '')
+// })
+// .then((data)=>{
+//     console.log(data);
+    
+// })
+// .catch((err)=>{
+//     console.log(err);
+    
+// })
+// let b = 21;
+// let p = () =>{
+//   b = 23;
+//   console.log(b);
+  
+// };
+// p()
+// console.log(b)
+
+let obj= {
+  fname: 'anushka',
+  lname: 'jain'
+};
+
+// let o = new obj();   
+Object.prototype.email = 'anu@gmail.com';
+// console.log(Object.prototype.email);
+
+
+console.log(obj.email);
+
+
+</script>
+</html>
+
+
+// client create
+// open called
+// send
+// load
+// operation complete

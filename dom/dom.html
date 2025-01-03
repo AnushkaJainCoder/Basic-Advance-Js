@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1>My Blog</h1>
+    <!-- <div id="entr1">
+        <h2>Great day bird watching</h2>
+        <p>
+            Today I saw three ducks!
+            I named them
+            Huey, Louie, and Dewey.
+
+        </p>
+        <p>
+            I took a couple of photos...
+        </p>
+    </div> -->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            #redplanet {
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: blanchedalmond;">
+        <h1>Green Planet</h1>
+        <p id="greenplanet"> All is well <span style="display: none;">planet is red.............</span></p>
+        <h1>Red Planet </h1>
+        <p id="redplanet">Nothing to report</p>
+        <h1>Blue Planet</h1>
+        <p id="blueplanet">All systems A-OK</p>
+        <!-- <script src="dom.js"></script> This should be at the end -->
+
+
+        <ul>
+            <li id="op1">option1</li>
+            <li>option2</li>
+            <li>option3</li>
+        </ul>
+
+        <button onclick="fun()">
+            hide
+        </button>
+        <button onclick="funn()">
+            display
+        </button>
+        <button onclick="greenPlanet()"> green planet</button>
+        <button onclick="vi()">visible</button>
+
+        <script>
+            // function init() {
+            //     let access = document.getElementById("greenplanet");
+            //     access.innerHTML = "hello gentleman"
+            //     access.style.backgroundColor = 'pink'
+            //     access.style.padding = '21px'
+            //     access.style.borderRadius = '21px'
+
+            //     // access.style.color = "red"
+            //     // let ps = document.ge  tAttribute("greenplanet")
+            //     // console.log(ps);
+
+            //     access.setAttribute("class", "redText")
+            //    let p =  access.getAttribute(".redText");
+            //     // acc
+            //     console.log(p);
+
+            // }
+
+            function fun() {
+                let access = document.querySelector('ul');
+                access.style.display = 'none';
+
+            }
+            function funn() {
+                let access = document.querySelector('ul')
+                access.style.display = 'block'
+            }
+            function greenPlanet() {
+                let access = document.querySelector('#greenplanet');
+                access.style.color = 'orange'
+                // console.log(access);
+
+            }
+            function vi(){
+                let access = document.createElement
+            }
+            // window.onload = init;
+
+        </script>
+
+
+    </body>
+
+    </html>
+
+</body>
+
+</html>
